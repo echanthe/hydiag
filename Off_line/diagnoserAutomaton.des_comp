@@ -1,0 +1,76 @@
+Hybrid_System_Diagnoser
+50
+q1 q2 q3 q4 q5 q6 q7 q8 q9 q10 q11 q12 q13 q14 q15 q16 q17 q18 q1_2 q3_4 q5_6 q7_8 q9_10 q11_12 q13_14 q15_16 q17_18 q2_1 q6_5 q8_7 q16_15 q18_17 q4_3 q10_9 q12_11 q14_13 q1_3 q1_11 q3_5 q9_7 q11_13 q17_15 q5_3 q13_11 q3_7 q5_7 q11_17 q13_15 q9_3 q17_11 
+2
+f1 f2 
+1
+Runobs 
+0
+8
+check checkok checkko coupef1 ouvref1 coupef2 ouvref2 R. 
+64
+q1 -> q1_2 check
+q1 -> q1_3 f1
+q1 -> q1_11 f2
+q2 -> q2_1 checkok
+q3 -> q3_4 check
+q3 -> q3_5 coupef1
+q3 -> q3_7 coupef2
+q4 -> q4_3 checkko
+q5 -> q5_6 check
+q5 -> q5_3 ouvref1
+q5 -> q5_7 coupef2
+q6 -> q6_5 checkok
+q7 -> q7_8 check
+q8 -> q8_7 checkok
+q9 -> q9_10 check
+q9 -> q9_7 coupef1
+q9 -> q9_3 ouvref2
+q10 -> q10_9 checkko
+q11 -> q11_12 check
+q11 -> q11_13 coupef1
+q11 -> q11_17 coupef2
+q12 -> q12_11 checkko
+q13 -> q13_14 check
+q13 -> q13_11 ouvref1
+q13 -> q13_15 coupef2
+q14 -> q14_13 checkko
+q15 -> q15_16 check
+q16 -> q16_15 checkok
+q17 -> q17_18 check
+q17 -> q17_15 coupef1
+q17 -> q17_11 ouvref2
+q18 -> q18_17 checkok
+q1_2 -> q2 R.
+q3_4 -> q4 R.
+q5_6 -> q6 R.
+q7_8 -> q8 R.
+q9_10 -> q10 R.
+q11_12 -> q12 R.
+q13_14 -> q14 R.
+q15_16 -> q16 R.
+q17_18 -> q18 R.
+q2_1 -> q1 R.
+q6_5 -> q5 R.
+q8_7 -> q7 R.
+q16_15 -> q15 R.
+q18_17 -> q17 R.
+q4_3 -> q3 R.
+q10_9 -> q9 R.
+q12_11 -> q11 R.
+q14_13 -> q13 R.
+q1_3 -> q3 R.
+q1_11 -> q11 R.
+q3_5 -> q5 R.
+q9_7 -> q7 R.
+q11_13 -> q13 R.
+q17_15 -> q15 R.
+q5_3 -> q3 R.
+q13_11 -> q11 R.
+q3_7 -> q7 R.
+q5_7 -> q7 R.
+q11_17 -> q17 R.
+q13_15 -> q15 R.
+q9_3 -> q3 R.
+q17_11 -> q11 R.
+

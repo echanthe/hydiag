@@ -1,0 +1,25 @@
+digraph output {
+    rankdir=TB;
+    node [shape = circle];
+    1  [label="q1" ]
+    1->4 [label="f1" fontcolor="blue" ]
+    1->5 [label="f2" fontcolor="blue" ]
+    1->2 [label="h2s" fontcolor="blue" ]
+    2  [label="q2" ]
+    2->6 [label="f1" fontcolor="blue" ]
+    2->1 [label="h1" fontcolor="blue" ]
+    2->3 [label="hmax" fontcolor="blue" ]
+    3  [label="q3" ]
+    3->2 [label="h2i" fontcolor="blue" ]
+    4  [label="q4" ]
+    4->8 [label="f2" fontcolor="blue" ]
+    4->6 [label="h2s" fontcolor="blue" ]
+    5  [label="q5" ]
+    5->8 [label="f1" fontcolor="blue" ]
+    5->7 [label="h2s" fontcolor="blue" ]
+    6  [label="q6" ]
+    6->4 [label="h1" fontcolor="blue" ]
+    7  [label="q7" ]
+    7->5 [label="h1" fontcolor="blue" ]
+    8  [label="q8" ]
+}
